@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/ssp.css"> 
+    <title>Casino</title>
+</head>
+<div class="topnavbar" id="Topnav">
+    <a href="/pages/Home.html">Home</a>
+    <a href="/pages/bildgalleri.html">BildGalleri</a>
+    <a href="/pages/stensaxpase.html">SSP</a>
+    <a href="/pages/tema.html">Färgtema</a>
+    <a href="javascript:void(0);" class="icon" onclick="Navbar()">&#9776;</a>
+  </div>
+<body>
+      
+     <h1> Här är bilder på några av våra största vinnare!</h1>
+    <div id="bild">
+
+    <img class="thumb" src="/assets/images/gambling1 - Copy.jpeg" data-big="/assets/images/gambling1.jpeg">
+    <img class="thumb" src="/assets/images/gambling2small.jpg" data-big="/assets/images/gambling2.jpg">
+    <img class="thumb" src="/assets/images/gambling3small.jpg" data-big="/assets/images/gambling3.jpg">
+    <img class="thumb" src="/assets/images/gambling4small.jpg" data-big="/assets/images/gambling4.jpg">
+    <img class="thumb" src="/assets/images/gambling5small.jpg" data-big="/assets/images/gambling5.jpg">
+    <img class="thumb" src="/assets/images/gambling6small.jpg" data-big="/assets/images/gambling6.jpg">
+    <h2>Tryck nånstans utanför bilden för att minska den</h2>
+</div>
+   
+    <div id="big-img"><img></div>
+    <br>
+
+    <div id="EXTRA1">
+    <button onclick=myURL();> logout</button> <br>
+    <div id="klocka"></div>
+</div>
+
+    <div id="hide">
+        <select id="colorID">Den här delen är hidden. Hittade inte på annat sätt att få färgen att store på andra pages
+            <option type="color"  value="#e3cba8" id="colorID">Default</option>
+            <option  type="color"  value="#abdbe3" id="colorID">Light</option>
+            <option type="color"   value="green" id="colorID">Green</option>
+            <option type="color"   value="#063970" id="colorID">Blue Mode</option>
+            <br>
+           </select> 
+        </div>
+</body>
+<script src="/assets/js/lightbox.js"></script>
+<script src="/assets/js/ssp.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+<script src="/assets/js/datum.js"></script>
+</html>

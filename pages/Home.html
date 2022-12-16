@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/ssp.css"> 
+    <title>Casino</title>
+</head>
+<div class="topnavbar" id="Topnav">
+    <a href="/pages/Home.html">Home</a>
+    <a href="/pages/bildgalleri.html">BildGalleri</a>
+    <a href="/pages/stensaxpase.html">SSP</a>
+    <a href="/pages/tema.html">Färgtema</a>
+    <a href="javascript:void(0);" class="icon" onclick="Navbar()">&#9776;</a>
+  </div>
+<body>
+
+
+    <h1>Välkommen till kasinot</h1>
+    <h2>Bläddra sidor ovanför</h2>
+    </div>
+    <select id="weekday">
+        <option>Måndag</option>
+        <option>Tisdag</option>
+        <option>Onsdag</option>
+        <option>Torsdag</option>
+        <option>Fredag</option>
+        <option value="lördag">Lördag</option>
+        <option value="söndag">Söndag</option>
+    </select>
+    <p>Ändra vilken dag det är på kasinot</p>
+
+    
+    
+    <div id="EXTRA">
+        <button onclick=myURL();> logout</button> <br>
+        <div id="klocka"></div>
+    </div>
+
+    <div id="hide">
+    <select id="colorID">
+        <option type="color"  value="#e3cba8" id="colorID">Default</option>
+        <option  type="color"  value="#abdbe3" id="colorID">Light</option>
+        <option type="color"   value="green" id="colorID">Green</option>
+        <option type="color"   value="#063970" id="colorID">Blue Mode</option>
+        <br>
+       </select>  Den här delen är hidden. Hittade inte på annat sätt att få färgen att store på andra pages
+    </div>
+</body>
+<script src="/assets/js/datum.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+<script src="/assets/js/ssp.js"></script>
+
+
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/ssp.css"> 
+    <title>Casino</title>
+</head>
+<div class="topnavbar" id="Topnav">
+  <a href="/pages/Home.html">Home</a>
+  <a href="/pages/bildgalleri.html">BildGalleri</a>
+  <a href="/pages/stensaxpase.html">SSP</a>
+  <a href="/pages/tema.html">Färgtema</a>
+  <a href="javascript:void(0);" class="icon" onclick="Navbar()">&#9776;</a>
+</div>
+  <body>
+  
+
+    
+    <h1>DANUS CASINO</h1>
+   
+    <hr>
+    
+    <h3>ändra bakgrundsfärger</h3>
+       
+        
+    <select id="colorID">
+          <option type="color"  value="#e3cba8" id="colorID">Default</option>
+          <option  type="color"  value="#abdbe3" id="colorID">Light</option>
+          <option type="color"   value="green" id="colorID">Green</option>
+          <option type="color"   value="#063970" id="colorID">Blue Mode</option>
+          <br>
+    </select> 
+    
+    <hr>
+    <h4>ändra textens färg </h4>
+      <div id="colour">
+            <label>Röd:</label>
+            <input type="range" id="rangeRed" value="0" min="0" max="255">
+    
+            <label>Grön:</label>
+            <input type="range" id="rangeGreen" value="0" min="0" max="255">
+    
+            <label>Blå:</label>
+            <input type="range" id="rangeBlue" value="0" min="0" max="255">
+     
+      </div>
+
+      <div id="EXTRA3">
+        <button onclick=myURL();> logout</button> <br>
+        <div id="klocka"></div>
+      </div>
+    <script src="/assets/js/ssp.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+    <script src="/assets/js/datum.js"></script>
+
+
+
+
+
+
+    
+
+
+</body>
+</html>
